@@ -45,6 +45,16 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Running mongo container and seeders
+
+```bash
+# database
+$ docker-compose up
+
+# seeders
+$ npm run seed:refresh
+```
+
 ## Test
 
 ```bash
